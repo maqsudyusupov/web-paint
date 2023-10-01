@@ -136,7 +136,7 @@ clearCanvasBtn.addEventListener('click', () => {
 // SAVE LIKE IMAGE OUR PAINT
 saveImageBtn.addEventListener('click', () => {
 	const link = document.createElement('a')
-	link.download = `Sammi-paint${Date.now()}.jpg`
+	link.download = `Maqsud-paint${Date.now()}.jpg`
 	link.href = canvas.toDataURL()
 	link.click()
 })
